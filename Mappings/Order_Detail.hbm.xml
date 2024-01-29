@@ -1,0 +1,13 @@
+﻿<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="NHibernateTest" namespace="NHibernate.Models">
+	<class name="Order_Detail" table="Order Details">
+		<id name="OrderID">
+			<generator class="native" />
+		</id>
+
+		<property name="ProductID"></property>
+		<property name="UnitPrice"></property>
+		<property name="Quantity"></property>
+		<property name="Discount"></property>
+	</class>
+
+</hibernate-mapping>

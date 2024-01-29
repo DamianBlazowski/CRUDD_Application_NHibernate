@@ -1,0 +1,22 @@
+﻿<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="NHibernateTest" namespace="NHibernate.Models">
+	<class name="Order" table="Orders">
+		<id name="OrderID">
+			<generator class="native" />
+		</id>
+
+		<property name="CustomerID"></property>
+		<property name="EmployeeID"></property>
+		<property name="OrderDate"></property>
+		<property name="RequiredDate"></property>
+		<property name="ShippedDate"></property>
+		<property name="ShipVia"></property>
+		<property name="Freight"></property>
+		<property name="ShipName"></property>
+		<property name="ShipAddress"></property>
+		<property name="ShipCity"></property>
+		<property name="ShipRegion"></property>
+		<property name="ShipPostalCode"></property>
+		<property name="ShipCountry"></property>
+	</class>
+
+</hibernate-mapping>

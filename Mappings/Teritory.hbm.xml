@@ -1,0 +1,11 @@
+﻿<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="NHibernateTest" namespace="NHibernate.Models">
+	<class name="Territory" table="Territories">
+		<id name="TerritoryID">
+			<generator class="native" />
+		</id>
+
+		<property name="TerritoryDescription"></property>
+		<property name="RegionID"></property>
+	</class>
+
+</hibernate-mapping>

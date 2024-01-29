@@ -1,0 +1,20 @@
+﻿<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="NHibernateTest" namespace="NHibernate.Models">
+	<class name="Supplier" table="Suppliers">
+		<id name="SupplierID">
+			<generator class="native" />
+		</id>
+
+		<property name="CompanyName"></property>
+		<property name="ContactName"></property>
+		<property name="ContactTitle"></property>
+		<property name="Address"></property>
+		<property name="City"></property>
+		<property name="City"></property>
+		<property name="PostalCode"></property>
+		<property name="Country"></property>
+		<property name="Phone"></property>
+		<property name="Fax"></property>
+		<property name="HomePage"></property>
+	</class>
+
+</hibernate-mapping>

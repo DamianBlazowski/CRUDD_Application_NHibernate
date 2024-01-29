@@ -1,0 +1,11 @@
+﻿<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="NHibernateTest" namespace="NHibernate.Models">
+	<class name="Shipper" table="Shippers">
+		<id name="ShipperID">
+			<generator class="native" />
+		</id>
+
+		<property name="CompanyName"></property>
+		<property name="Phone"></property>
+	</class>
+
+</hibernate-mapping>
